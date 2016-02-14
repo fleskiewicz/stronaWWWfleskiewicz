@@ -1,0 +1,322 @@
+body {
+background:
+ linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ),
+ url(http://www.krt.ch/euro2016/files/extfiles/mainbgImgUrl.jpg);
+ color: white;
+ clear: both;
+}
+.naglowek {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+margin-bottom: 2%;
+}
+
+#banner {
+    display: block;
+    margin: auto;
+	text-align: center;
+   
+}
+
+nav {
+text-align:center;
+}
+
+.content {
+overflow:hidden;
+border: 2px solid transparent;
+border-radius: 15px;
+padding-top: 1%;
+padding-bottom: 1%;
+clear: both;
+width: 80%;
+margin-top: 1%;
+margin-left: 10%;
+margin-right: auto;
+text-align: left;
+background: url(http://www.krt.ch/euro2016/files/extfiles/mainbgImgUrl.jpg);
+}
+
+.content h2 {
+	text-align: center;
+	text-shadow:0 0 6px black;
+	color: white;
+	font-size: 1.5em;
+	padding: 0px 0px 3em;
+	font-weight: bold;
+}
+
+.menu li {
+display:inline-block;
+}
+
+.menu ul {
+position: relative;
+width: 100%;
+padding: 0;
+margin: 0 auto;
+list-style: none;
+}
+
+.menu ul li a {
+position: relative;
+display: block;
+text-align: center;
+font-size: 125%;
+font-family: "Anaheim", sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+width: 190px;
+text-decoration: none;
+color: white;
+background: linear-gradient(to right, blue, white, red);
+border-radius: 15px;
+padding: 10px 15px;
+float: left;
+text-shadow: 0 0 4px black;
+}
+
+.menu ul li a:hover {
+background: linear-gradient(to right, blue, red);
+
+}
+
+.menu ul li.polska a{
+	background: linear-gradient(to right, white, red);
+	text-shadow: 4px 4px 8px black;
+}
+
+.menu ul li.polska a:hover {
+background: linear-gradient(to right, red, red);
+
+}
+
+h1 {
+text-align: center;
+text-shadow:0 0 6px black;
+color: white;
+font-size: 220%;
+font-weight: bold;
+padding-bottom: 2%;
+}
+
+h1 span { 
+background-color:#020F3C; 
+}
+
+.glowna {
+font-size: 140%;
+width: 35%;
+margin-left: 5%;
+text-align: justify;
+font-family: "Anaheim", sans-serif;
+}
+
+
+footer {
+font-weight: bold;
+padding: 5px;
+text-align: center;
+font-size: 15px;
+clear: both;
+}
+
+#cup {
+border-width: 0;
+clear: both;
+float: right;
+border-style: hidden;
+margin-right: 5%;
+margin-top: 0;
+;
+}
+
+.glowna span {
+	font-weight: bold;
+}
+
+.res {
+	margin-top: 4%;
+	font-family: "Anaheim", sans-serif;
+	font-size: 90%;
+	text-align: justify;
+	color: red;
+	width: 35%;
+	margin-left: 5%;
+}
+
+.nag {
+text-align: center;
+text-shadow:0 0 6px black;
+color: white;
+font-size: 1.2em;
+padding: 0px 0px 3em;
+font-weight: bold;
+}
+
+#repki {
+display: block;
+text-align: left;
+font-family: "Anaheim", sans-serif;
+font-weight: bold;
+margin-left: 10%;
+margin-right: 2%;
+}
+
+#repki ul {
+	margin-bottom:20%;
+	overflow:hidden;
+	list-style-type: square;
+	}
+
+#repki li {
+	float:left;
+	display:block;
+	width: 25%;
+	list-style-type: square;
+}
+
+#repki img {
+width: 50px;
+height: auto;
+padding-right: 10px;
+vertical-align: middle;
+}
+
+#grupowa {
+display: block;
+font-family: "Anaheim", sans-serif;
+margin-left: 10%;
+}
+
+#grupowa ul {
+	overflow:hidden;
+	}
+
+#grupowa li {
+	float:left;
+	display:block;
+	width: 33.3333%;
+	margin-bottom: 1.5%;
+}
+
+table.grupa {
+	border-collapse: collapse;
+	width: 50%;
+	table-layout: auto;
+	
+}
+
+.grupa table, th, td {
+	border: 1px solid white;
+	width: 100%;
+}
+
+.grupa th {
+	text-align: center;
+	background-color: blue;
+    color: white;
+}
+
+.grupa th, td {
+	padding: 5px;
+}
+
+#sedziowie {
+display: block;
+text-align: left;
+font-family: "Anaheim", sans-serif;
+font-weight: bold;
+margin-left: 16%;
+margin-right: 2%;
+}
+
+#sedziowie ul {
+	margin-bottom:20%;
+	overflow:hidden;
+	list-style-type: square;
+	}
+
+#sedziowie li {
+	float:left;
+	display:block;
+	width: 33.3333%;
+	list-style-type: square;
+}
+
+#sedziowie img {
+width: 35px;
+height: auto;
+padding-right: 10px;
+vertical-align: middle;
+}
+
+#ciekawe {
+	float: right;
+	font-family: "Anaheim", sans-serif;
+	font-size: 110%;
+	padding-right: 5%;
+}
+
+#ciekawe li {
+	margin-bottom: 2%;
+}
+
+#maskotka img {
+	width: 210px;
+	height: auto;
+	float: left;
+	padding-left: 5%;
+}
+
+#stadiony img {
+	width: 200px;
+	height: 120px;
+	vertical-align: middle;
+	padding-bottom: 6%;
+	padding-right: 2%;
+}
+
+
+
+#stadiony {
+display: block;
+font-family: "Anaheim", sans-serif;
+font-weight: bold;
+margin-right: 10%;
+margin-left: 10%;
+}
+
+#stadiony li:nth-child(odd){
+	float:left;
+	display:block;
+	width: 50%;
+}
+
+#stadiony li:nth-child(even){
+	float:right;
+	display:block;
+	width: 50%;
+}
+
+#droga {
+float: left;
+margin-right: 5%;
+margin-top: 0;
+vertical-align: middle;
+;
+}
+
+.opolsce {
+float: right;
+font-size: 140%;
+width: 35%;
+margin-left: 5%;
+margin-right: 5%;
+text-align: right;
+font-family: "Anaheim", sans-serif;
+}
